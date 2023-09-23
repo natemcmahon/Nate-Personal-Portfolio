@@ -1,0 +1,40 @@
+#welcome-image {
+    display: flex;
+    max-width: 1000px;
+    height: 100%;
+    float: right;
+}
+
+#headshot {
+    display: flex;
+    max-height: 300px;
+}
+
+/* .hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("assets\images\Hiking.png");
+    background-size: cover;
+    background-position: center;
+} */
+
+#portfolio {
+    color: brown;
+    max-width: 500px;
+}
+
+#portfolio img {
+    max-width: 500px;
+    padding: 100px;
+}
+
+#contact-info {
+    color: green;
+    
+}
+
+#contact-info img {
+    max-width: 500px;
+    padding: 100px;
+}
