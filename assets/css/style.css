@@ -36,7 +36,13 @@ main p {
   width: 100%;
   flex-wrap: wrap;
   /* margin-top: 100px; */
-  color: brown;
+  color: black;
+}
+
+.portfolio h4 {
+  font-size: larger;
+  background-color: deepskyblue;
+  padding: 20px;
 }
 
 header {
@@ -177,4 +183,9 @@ section.card:hover p {
 
 section.card p{
     display: none;
+}
+
+section.card a img {
+  width: 100%;
+  overflow: clip;
 }
