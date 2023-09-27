@@ -5,7 +5,6 @@
 #welcome-image {
   display: flex;
   background-position: center;
-  /* height: 100%; */
   margin-top: 100px;
   text-align: center;
 }
@@ -15,7 +14,6 @@ main {
   width: 100%;
   padding-left: 100px;
   background-color: white;
-  /* padding-bottom: 100px; */
 }
 
 main p {
@@ -35,7 +33,6 @@ main p {
   display: flex;
   width: 100%;
   flex-wrap: wrap;
-  /* margin-top: 100px; */
   color: black;
 }
 
@@ -82,7 +79,6 @@ nav a:hover {
 
 #past-projects {
   flex: 1;
-  background-color: var(--white);
   padding: 10px;
   display: flex;
   flex-wrap: wrap;
@@ -92,15 +88,12 @@ nav a:hover {
 .card {
   border-style: solid;
   border-width: 1px;
-  border-radius: var(--border-radius);
   padding: 10px;
   flex: 0 0 300px;
   margin: 20px;
 }
 
 .card > header {
-  /* This is the same as `border-radius: 50px 50px 0 0 */
-  border-radius: var(--border-radius) var(--border-radius) 0 0;
   padding: 20px;
 }
 
@@ -118,7 +111,6 @@ nav a:hover {
 
 .products {
   flex: 1;
-  background-color: var(--light);
   padding: 50px;
   display: flex;
   flex-wrap: wrap;
@@ -141,7 +133,6 @@ nav a:hover {
   border-radius: 2px;
   padding: 10px;
   flex: 0 0 300px;
-  box-shadow: 10px 10px 5px var(--gray);
   margin: 20px;
 }
 
@@ -170,7 +161,6 @@ nav a:hover {
     color: black;
 }
 
-/* Why won't text display center */
 .card-title {
     display: flex;
     text-align: center;
