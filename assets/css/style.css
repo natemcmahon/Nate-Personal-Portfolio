@@ -1,157 +1,179 @@
+* {
+  background-color: whitesmoke;
+}
 #welcome-image {
-    display: flex;
-    background-position: center;
-    height: 500px;
-    margin-top: 100px;
-    text-align: center;
+  display: flex;
+  background-position: center;
+  height: 100%;
+  margin-top: 100px;
+  text-align: center;
 }
 
 main {
-    display: flex;
-    width: 100%;
-    padding-left: 100px;
-    background-color: lightgrey
+  display: flex;
+  width: 100%;
+  padding-left: 100px;
+  background-color: white;
+  /* padding-bottom: 100px; */
 }
 
 main p {
-    font-size: larger;
-    display: flex;
-    margin-left: 100px;
-    align-items: center;
+  font-size: larger;
+  display: flex;
+  margin-left: 100px;
+  align-items: center;
+  background-color: white;
 }
 
 #headshot {
-    display: flex;
-    max-height: 300px;
-    
+  display: flex;
+  max-height: 300px;
 }
-
-/* .hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("assets\images\Hiking.png");
-    background-size: cover;
-    background-position: center;
-} */
 
 .portfolio {
-    display: flex;
-    width: 100%;
-    background-color: lightseagreen;
-    flex-wrap: wrap;
-    margin-top: 100px;
-    /* padding-left: 200px; */
-    color: brown;
-    /* max-width: 500px; */
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  /* margin-top: 100px; */
+  color: brown;
 }
 
-/* .portfolio img {
-    max-width: 500px;
-    padding: 100px;
-} */
-
-#contact-info {
-    color: green;
-    
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2%;
+  background-color: #13293d;
+  color: #fff;
 }
 
-#contact-info img {
-    max-width: 500px;
-    padding: 100px;
+header h1 {
+  background-color: #13293d;
 }
 
-/* #navigation-links {
-    padding: 25px;
-    background-color: darkslategrey;
-    width: 220px;
-}
-
-ul h4 {
-    background-color: white;
-    padding: 5px;
-    border-style: solid;
-    border-color: yellow;
-    width: 70px;
-}
-
-ul h4:hover {
-    background-color: tomato;
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  min-width: 300px;
+  background-color: #13293d;
 }
 
 nav a {
-    box-sizing: border-box;
-    
-} */
+  color: #b9c6ae;
+  background-color: #13293d;
+  font-weight: bold;
+  text-decoration: none;
+}
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2%;
-    background-color: #13293d;
-    color: #fff;
-  }
+nav a:hover {
+  color: #fff;
+}
 
-  nav ul {
-    display: flex;
-    justify-content: space-between;
-    min-width: 300px;
-  }
-  
-  nav a {
-    color: #b9c6ae;
-    font-weight: bold;
-    text-decoration: none;
-  }
-  
-  nav a:hover {
-    color: #fff;
-  }
-  
-  .portfolio {
-    display: flex;
+#main-project {
+    padding: 10px;
+}
+
+#past-projects {
+  flex: 1;
+  background-color: var(--white);
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: var(--border-radius);
+  padding: 10px;
+  flex: 0 0 300px;
+  margin: 20px;
+}
+
+.card > header {
+  /* This is the same as `border-radius: 50px 50px 0 0 */
+  border-radius: var(--border-radius) var(--border-radius) 0 0;
+  padding: 20px;
+}
+
+.card > p {
+  text-align: center;
+}
+
+.card > img {
+  width: 100%;
+}
+
+.subheading {
     width: 100%;
-    background-color: lightseagreen;
-    flex-wrap: wrap;
-  }
+}
 
-  #main-project {
-      padding: 10px;
-  }
+.products {
+  flex: 1;
+  background-color: var(--light);
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
 
-  #past-projects {
-    flex: 1;
-    background-color: var(--white);
+#contact-info {
+  color: green;
+
+}
+
+#contact-info img {
+  max-width: 500px;
+  padding: 100px;
+}
+
+.card {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  padding: 10px;
+  flex: 0 0 300px;
+  box-shadow: 10px 10px 5px var(--gray);
+  margin: 20px;
+}
+
+.Box-Title {
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+.code-snippet {
+  display: flex;
+  background-color: deepskyblue;
+  color: white;
+  padding: 15px;
+  flex-direction: column;
+  align-items: left;
+  justify-items: center;
+}
+
+.contact {
+    padding: 5px;
+}
+
+.code-snippet p {
     padding: 10px;
+    color: black;
+}
+
+/* Why won't text display center */
+.card-title {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-  }
-
-  .card {
-    border-style: solid;
-    border-width: 1px;
-    border-radius: var(--border-radius);
-    padding: 10px;
-    flex: 0 0 300px;
-    margin: 20px;
-  }
-
-  .card > header {
-    /* This is the same as `border-radius: 50px 50px 0 0 */
-    border-radius: var(--border-radius) var(--border-radius) 0 0;
-    padding: 20px;
-  }
-  
-  .card > p {
     text-align: center;
-  }
-  
-  .card > img {
-    width: 100%;
-  }
+    align-items: center;
+}
 
-  .subheading {
-      width: 100%;
-  }
+section.card:hover p {
+    display: block;
+}
+
+section.card p{
+    display: none;
+}
